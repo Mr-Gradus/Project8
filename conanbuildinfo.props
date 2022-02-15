@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="Conan-RootDirs">
+    <Conan-gtest-Root>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\5ad274d83035c78ba2b205e6cf4f1b317aee8e05</Conan-gtest-Root>
+  </PropertyGroup>
+  <PropertyGroup Label="ConanVariables">
+    <ConanPackageName></ConanPackageName>
+    <ConanPackageVersion></ConanPackageVersion>
+    <ConanCompilerFlags></ConanCompilerFlags>
+    <ConanLinkerFlags></ConanLinkerFlags>
+    <ConanPreprocessorDefinitions></ConanPreprocessorDefinitions>
+    <ConanIncludeDirectories>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\5ad274d83035c78ba2b205e6cf4f1b317aee8e05\include;</ConanIncludeDirectories>
+    <ConanResourceDirectories></ConanResourceDirectories>
+    <ConanLibraryDirectories>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\5ad274d83035c78ba2b205e6cf4f1b317aee8e05\lib;</ConanLibraryDirectories>
+    <ConanBinaryDirectories></ConanBinaryDirectories>
+    <ConanLibraries>gtest_main.lib;gmock_main.lib;gmock.lib;gtest.lib;</ConanLibraries>
+    <ConanSystemDeps></ConanSystemDeps>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LocalDebuggerEnvironment>PATH=%PATH%;</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ConanIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(ConanPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(ConanCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ConanLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ConanLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ConanSystemDeps)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(ConanLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(ConanIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(ConanIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(ConanPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(ConanCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
