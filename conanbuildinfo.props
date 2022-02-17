@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Label="Conan-RootDirs">
-    <Conan-gtest-Root>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\5ad274d83035c78ba2b205e6cf4f1b317aee8e05</Conan-gtest-Root>
+    <Conan-gtest-Root>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\875c67f4d8a79bdd002908b75efce119eb82836d</Conan-gtest-Root>
   </PropertyGroup>
   <PropertyGroup Label="ConanVariables">
     <ConanPackageName></ConanPackageName>
@@ -11,11 +11,11 @@
     <ConanCompilerFlags></ConanCompilerFlags>
     <ConanLinkerFlags></ConanLinkerFlags>
     <ConanPreprocessorDefinitions></ConanPreprocessorDefinitions>
-    <ConanIncludeDirectories>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\5ad274d83035c78ba2b205e6cf4f1b317aee8e05\include;</ConanIncludeDirectories>
+    <ConanIncludeDirectories>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\875c67f4d8a79bdd002908b75efce119eb82836d\include;</ConanIncludeDirectories>
     <ConanResourceDirectories></ConanResourceDirectories>
-    <ConanLibraryDirectories>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\5ad274d83035c78ba2b205e6cf4f1b317aee8e05\lib;</ConanLibraryDirectories>
+    <ConanLibraryDirectories>$(USERPROFILE)\.conan\data\gtest\cci.20210126\_\_\package\875c67f4d8a79bdd002908b75efce119eb82836d\lib;</ConanLibraryDirectories>
     <ConanBinaryDirectories></ConanBinaryDirectories>
-    <ConanLibraries>gtest_main.lib;gmock_main.lib;gmock.lib;gtest.lib;</ConanLibraries>
+    <ConanLibraries>gtest_maind.lib;gmock_maind.lib;gmockd.lib;gtestd.lib;</ConanLibraries>
     <ConanSystemDeps></ConanSystemDeps>
   </PropertyGroup>
   <PropertyGroup>
